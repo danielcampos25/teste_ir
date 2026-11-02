@@ -1,0 +1,26 @@
+# ESP-IDF generated output
+build/
+sdkconfig
+sdkconfig.old
+
+# Local IDE and agent settings
+.vscode/
+.codex/
+
+# Compiled and temporary files
+*.elf
+*.map
+*.bin
+*.hex
+*.uf2
+*.o
+*.a
+*.pyc
+__pycache__/
+
+# Flashing and monitoring logs
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
