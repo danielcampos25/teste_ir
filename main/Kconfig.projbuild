@@ -1,0 +1,15 @@
+menu "Configuracao do projeto IR"
+
+    choice IR_MODE
+        prompt "Selecionar firmware IR"
+        default IR_MODE_RECEIVER
+
+        config IR_MODE_RECEIVER
+            bool "Receptor infravermelho"
+
+        config IR_MODE_TRANSMITTER
+            bool "Transmissor infravermelho"
+
+    endchoice
+
+endmenu
